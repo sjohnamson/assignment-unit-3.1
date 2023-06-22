@@ -12,7 +12,7 @@ let favoriteFoods = ['ramen', 'sauerkraut', 'bread', 'enchiladas'];
 
 // 1.b. TODO: Log your array of foods to the console with a message, similar 
 //      to the example above
-console.log('A few of my favorite foods are: ' , favoriteFoods);
+console.log('A few of my favorite foods are: ', favoriteFoods);
 
 
 // 2. Array.length - tells you how many items are in the array
@@ -106,5 +106,5 @@ console.log(`Foods in a string: ${favoriteFoods.join(' and ')}`);
 //     Then log the new array.
 //     It should look something like:
 //     ['pizza', 'pasta', 'fish', 'cat', 'bird', 'dog']
-const foodsAndAnimals = animalArray.concat(favoriteFoods);
+let foodsAndAnimals = animalArray.concat(favoriteFoods);
 console.log(foodsAndAnimals);
